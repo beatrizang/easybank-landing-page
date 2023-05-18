@@ -1,0 +1,38 @@
+.choose{
+    background: var(--light-grayish-blue);
+    padding: 5rem 7rem;
+}
+.choose__text{
+    padding: 2rem 0;
+}
+
+.choose__title{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.choose__para{
+    color: var(--grayish-blue);
+    line-height: 1.5rem;
+}
+
+.choose__items{
+    align-items: start;
+    display: flex;
+}
+
+.choose__item{
+    width: 25%;
+}
+
+.item__title{
+    color: var(--dark-blue);
+    font-size: 1.1rem;
+    padding: 1.5rem 0;
+}
+
+.item__para{
+    color: var(--grayish-blue);
+    line-height: 1.5rem;
+}
