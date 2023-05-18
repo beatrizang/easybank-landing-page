@@ -1,0 +1,32 @@
+.header{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+}
+
+.menu__item{
+    color: var(--grayish-blue);
+    padding-left: 2rem;
+}
+
+.menu__item:hover{
+    color: var(--dark-blue);
+}
+
+.button__green{
+    background: linear-gradient(135deg, var(--lime-green), var(--bright-cyan));
+    border-radius: 2rem;
+    color: var(--white);
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+
+.button__green:hover{
+    background: linear-gradient(135deg, var(--lime-green-light), var(--bright-cyan-light));
+}

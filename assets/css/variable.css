@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+:root{
+--dark-blue: hsl(233, 26%, 24%);
+--lime-green: hsl(136, 65%, 51%);
+--bright-cyan: hsl(192, 70%, 51%);
+
+--lime-green-light: hsl(136, 56%, 70%);
+--bright-cyan-light: hsl(192, 67%, 73%);
+
+--grayish-blue: hsl(233, 8%, 62%);
+--light-grayish-blue: hsl(220, 16%, 96%);
+--very-light-gray: hsl(0, 0%, 98%);
+--white: hsl(0, 0%, 100%);
+
+--ff-public-sants: 'Public Sans', sans-serif;
+}
+
+body{
+    font-family: var(--ff-public-sants);
+}
