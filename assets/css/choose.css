@@ -2,8 +2,9 @@
     background: var(--light-grayish-blue);
     padding: 5rem 7rem;
 }
+
 .choose__text{
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .choose__title{

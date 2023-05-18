@@ -1,0 +1,22 @@
+.articles{
+    padding: 5rem 7rem;
+}
+
+.articles__title{
+    color: var(--dark-blue);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.list__articles{
+    display: flex;
+    width: 100%;
+}
+
+.article{
+    width: 20%;
+}
+
+.article__img{
+    width: 100%;
+}
