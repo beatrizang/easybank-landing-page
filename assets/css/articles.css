@@ -1,4 +1,5 @@
 .articles{
+    background: var(--very-light-gray);
     padding: 5rem 7rem;
 }
 
@@ -14,9 +15,38 @@
 }
 
 .article{
-    width: 20%;
+    margin-right: 2rem;
+    width: 25%;
 }
 
 .article__img{
+    border-radius: 0.2rem 0.2rem 0 0;
     width: 100%;
+}
+
+.article__text{
+    background: var(--white);
+    border-radius: 0 0 0.2rem 0.2rem;
+    padding: 1.5rem;
+}
+
+.article__author{
+    color: var(--grayish-blue);
+    font-size: 0.8rem;
+    padding-top: 2rem;
+}
+
+.article__title{
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.article__title:hover{
+    color: var(--lime-green);
+}
+
+.article__para{
+    color: var(--grayish-blue);
+    line-height: 1.2rem;
 }
