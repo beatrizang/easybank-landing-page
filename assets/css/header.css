@@ -12,6 +12,11 @@
     width: 10%;
 }
 
+.button__menu{
+    color: var(--dark-blue);
+    font-size: 1.5rem;
+}
+
 .menu{
     align-items: center;
     display: flex;
@@ -36,4 +41,30 @@
 
 .button__green:hover{
     background: linear-gradient(135deg, var(--lime-green-light), var(--bright-cyan-light));
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo{
+        width: 30%;
+    }
+    .nav{
+        display: none;
+    }
+
+    .buton__nav{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .header__logo{
+        width: 30%;
+    }
+    .nav{
+        display: none;
+    }
+
+    .buton__nav{
+        display: none;
+    }
 }

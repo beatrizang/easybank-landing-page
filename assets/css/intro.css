@@ -26,6 +26,61 @@
 }
 
 .intro__image{
-    
     width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        background-image: url('../../images/bg-intro-mobile.svg');
+        background-size: 100%;
+        background-position: 0% 0%;
+        flex-direction: column-reverse;
+        padding-bottom: 5rem;
+    }
+
+    .intro__image{
+        width: 100%;
+    }
+
+    .intro__text{
+        padding-left: 0rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .intro__title{
+        width: 100%;
+    }
+    
+    .intro__para{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro{
+        background-image: url('../../images/bg-intro-mobile.svg');
+        background-size: 100%;
+        background-position: 0% 0%;
+        flex-direction: column-reverse;
+        padding-bottom: 5rem;
+    }
+
+    .intro__image{
+        width: 100%;
+    }
+
+    .intro__text{
+        padding-left: 0rem;
+        width: 90%;
+        text-align: center;
+    }
+
+    .intro__title{
+        width: 100%;
+    }
+    
+    .intro__para{
+        width: 100%;
+    }
 }
