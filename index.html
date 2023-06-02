@@ -21,7 +21,9 @@
 <body>
   <header class="header">
     <img class="header__logo" src="./images/logo.svg" alt="Easybank logo">
-    <nav class="nav">
+    <div id="back_menu" class="back_menu">
+    </div>
+    <nav id="nav" class="nav">
       <ul class="menu">
         <li class="menu__item"><a href="#">Home</a></li>
         <li class="menu__item"><a href="#">About</a></li>
@@ -31,7 +33,7 @@
       </ul>
     </nav>
     <button class="button__green buton__nav">Request Invite</button>
-    <button class="button__menu"><i class="fa-solid fa-bars"></i></button>
+    <button id="button__menu" class="button__menu"><i class="fa-solid fa-bars"></i></button>
   </header>
   <main>
     <section class="intro">
@@ -164,6 +166,6 @@
       <p class="footer__copy">© Easybank. All Rights Reserved</p>
     </div>
   </footer>
-  
+  <script src="./assets/js/index.js"></script>
 </body>
 </html>
